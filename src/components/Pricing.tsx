@@ -3,32 +3,29 @@ export default function Pricing() {
     {
       name: "Starter",
       price: "$99",
-      period: "/month per firm",
-      description: "Perfect for small firms getting started with AI tax prep",
+      period: "/month",
+      description: "For small firms getting started with AI-assisted tax prep",
       features: [
         "Up to 100 returns per month",
-        "Automated document processing",
-        "Basic deduction finder",
+        "AI document processing",
+        "Basic deduction discovery",
         "Client portal access",
-        "Email support",
-        "1-state filing included"
+        "Email support"
       ],
       popular: false
     },
     {
       name: "Professional",
       price: "$249",
-      period: "/month per firm",
-      description: "Most popular plan for growing tax practices",
+      period: "/month",
+      description: "For growing practices that need more capacity",
       features: [
         "Up to 500 returns per month",
-        "Advanced AI deduction finder",
-        "Multi-state filing (up to 5 states)",
-        "Priority client portal",
-        "Phone & email support",
-        "Analytics dashboard",
-        "API access",
-        "Custom integrations"
+        "Advanced AI deduction tools",
+        "Multi-state support (up to 5)",
+        "Priority support",
+        "Workflow dashboard",
+        "API access"
       ],
       popular: true
     },
@@ -36,16 +33,14 @@ export default function Pricing() {
       name: "Enterprise",
       price: "Custom",
       period: "pricing",
-      description: "Tailored solutions for large accounting firms",
+      description: "For larger firms with custom requirements",
       features: [
         "Unlimited returns",
-        "White-label solution",
+        "White-label option",
         "All states supported",
         "Dedicated account manager",
-        "24/7 priority support",
-        "Custom AI training",
-        "Advanced analytics",
-        "SLA guarantee"
+        "Custom integrations",
+        "Priority SLA"
       ],
       popular: false
     }
@@ -57,21 +52,12 @@ export default function Pricing() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Simple, <span className="gradient-text">Transparent Pricing</span>
+            Planned <span className="gradient-text">Pricing</span>
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            Choose the plan that fits your firm&apos;s needs. All plans include core AI features and secure client portals.
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-4">
+            Pricing is preliminary and may change before launch. 
+            Waitlist members will receive founding member rates.
           </p>
-          
-          {/* Pricing Toggle */}
-          <div className="inline-flex items-center bg-gray-800/50 border border-gray-600 rounded-lg p-1">
-            <button className="px-6 py-2 rounded-md bg-blue-600 text-white font-medium">
-              Monthly
-            </button>
-            <button className="px-6 py-2 rounded-md text-gray-400 font-medium">
-              Annual (Save 20%)
-            </button>
-          </div>
         </div>
 
         {/* Pricing Cards */}
@@ -120,20 +106,10 @@ export default function Pricing() {
                     : 'bg-gray-800 hover:bg-gray-700 text-white border border-gray-600 hover:border-gray-500'
                 }`}
               >
-                {plan.name === 'Enterprise' ? 'Contact Sales' : 'Join Waitlist'}
+                Join Waitlist
               </button>
             </div>
           ))}
-        </div>
-
-        {/* Money Back Guarantee */}
-        <div className="text-center mt-16">
-          <div className="inline-flex items-center space-x-3 bg-green-900/20 border border-green-500/30 rounded-full px-8 py-4">
-            <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-            </svg>
-            <span className="text-green-300 font-medium">30-day money-back guarantee</span>
-          </div>
         </div>
       </div>
     </section>

@@ -8,9 +8,7 @@ export default function Hero() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // For now, just show success message
     setIsSubmitted(true)
-    // In production, this would send to your email service
     console.log('Waitlist signup:', email)
   }
 
@@ -32,14 +30,15 @@ export default function Hero() {
         
         {/* Hero Headline */}
         <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          AI Tax Prep That{' '}
-          <span className="gradient-text">Works While You Sleep</span>
+          AI-Powered Tools for{' '}
+          <span className="gradient-text">Tax Professionals</span>
         </h1>
         
         {/* Subheadline */}
         <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-          Automate your tax preparation workflow with AI-powered document processing, 
-          smart deduction finding, and multi-state filing for accounting firms.
+          We&apos;re building AI tools designed to help accounting firms 
+          streamline document processing and reduce manual data entry. 
+          Join the waitlist to get early access.
         </p>
         
         {/* CTA Section */}
@@ -74,35 +73,19 @@ export default function Hero() {
           )}
         </div>
         
-        {/* Trust Badges */}
-        <div className="flex justify-center items-center space-x-8 mb-16 opacity-60">
-          <div className="text-center">
-            <div className="text-2xl font-bold text-blue-400">SOC 2</div>
-            <div className="text-sm text-gray-400">Compliant</div>
-          </div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-green-400">256-bit</div>
-            <div className="text-sm text-gray-400">Encryption</div>
-          </div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-purple-400">99.9%</div>
-            <div className="text-sm text-gray-400">Uptime</div>
-          </div>
-        </div>
-        
-        {/* Stats */}
+        {/* What We're Building */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div>
-            <div className="text-4xl font-bold gradient-text mb-2">85%</div>
-            <div className="text-gray-300">Time Saved</div>
+            <div className="text-4xl mb-2">📄</div>
+            <div className="text-gray-300">AI Document Processing</div>
           </div>
           <div>
-            <div className="text-4xl font-bold gradient-text mb-2">99.7%</div>
-            <div className="text-gray-300">Accuracy Rate</div>
+            <div className="text-4xl mb-2">🎯</div>
+            <div className="text-gray-300">Smart Deduction Discovery</div>
           </div>
           <div>
-            <div className="text-4xl font-bold gradient-text mb-2">500+</div>
-            <div className="text-gray-300">Deductions Found</div>
+            <div className="text-4xl mb-2">⚡</div>
+            <div className="text-gray-300">Workflow Automation</div>
           </div>
         </div>
       </div>
