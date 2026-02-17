@@ -2,33 +2,33 @@ export default function Features() {
   const features = [
     {
       icon: "📄",
-      title: "AI Document Processing",
-      description: "Designed to read and extract data from W-2s, 1099s, receipts, and other tax documents — reducing manual data entry for your team."
+      title: "Document Reading",
+      description: "We're exploring how AI can read and extract data from W-2s, 1099s, receipts, and other common tax documents."
     },
     {
       icon: "🎯",
-      title: "Deduction Discovery Tools", 
-      description: "AI-assisted analysis to help identify potential deductions and credits that may be applicable to your clients' situations."
+      title: "Deduction Checklist Tools", 
+      description: "Tools to help your team organize and review potential deductions and credits — a second set of eyes, not a replacement for professional judgment."
     },
     {
       icon: "👥",
       title: "Client Portal",
-      description: "A secure portal where clients can upload documents and track progress — streamlining communication between your firm and clients."
+      description: "A place for clients to securely upload documents and check on their return status, so your team spends less time on back-and-forth emails."
     },
     {
       icon: "🗺️",
-      title: "Multi-State Support",
-      description: "Designed to help manage the complexity of multi-state returns, with built-in jurisdiction awareness."
+      title: "Multi-State Awareness",
+      description: "We're building with multi-state complexity in mind, so firms with clients across jurisdictions have better tooling."
     },
     {
       icon: "🔍",
-      title: "Review Assistance",
-      description: "Built-in validation tools designed to help catch common errors before filing, supporting your team's quality control process."
+      title: "Review Checklists",
+      description: "Checklists and validation prompts to support your team's existing quality control process before filing."
     },
     {
       icon: "📊",
       title: "Workflow Dashboard",
-      description: "Track return progress, team workload, and client status in one place to keep your firm organized during tax season."
+      description: "A dashboard to see return progress, team workload, and client status in one view during tax season."
     }
   ]
 
@@ -42,8 +42,8 @@ export default function Features() {
             <span className="gradient-text">Building</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Tools designed to help tax professionals work more efficiently — 
-            so you can focus on advising clients, not entering data.
+            We&apos;re developing tools for tax professionals. Here&apos;s what 
+            we&apos;re working on — your feedback will shape what we ship.
           </p>
         </div>
 

@@ -49,17 +49,19 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8 mb-8">
           <div className="bg-gray-800/50 rounded-lg p-6 text-sm text-gray-400 space-y-3">
             <p>
-              <strong className="text-gray-300">Important Disclaimer:</strong> TaxCaptain.ai is a software tool designed to assist licensed tax professionals. 
-              It is not a licensed CPA firm and does not provide tax, legal, or financial advice. 
-              All tax returns and financial decisions should be reviewed and approved by a qualified, licensed professional.
+              <strong className="text-gray-300">Important Disclaimer:</strong> TaxCaptain.ai is a software tool in development. 
+              It is <strong>not</strong> a licensed CPA firm, tax preparer, or financial advisor. It does not provide tax, legal, or financial advice. 
+              TaxCaptain.ai does not prepare tax returns, file documents with the IRS, or make recommendations about deductions or credits.
+              All tax decisions must be made by a qualified, licensed professional. Use of this tool does not create a professional-client relationship.
             </p>
             <p>
-              TaxCaptain.ai is currently in development and not yet publicly available. 
-              Features described on this page represent our development roadmap and are subject to change. 
-              No guarantees are made regarding specific results, time savings, or accuracy rates.
+              TaxCaptain.ai is currently in development and <strong>not yet publicly available</strong>. 
+              Features described on this page represent ideas we are exploring and may never ship. 
+              No guarantees are made regarding specific results, time savings, accuracy, or availability.
             </p>
             <p>
-              Results will vary based on individual firm circumstances, data quality, and use case complexity.
+              By joining the waitlist, you consent to receiving occasional email updates about TaxCaptain.ai. 
+              You can unsubscribe at any time by replying to any email with &quot;unsubscribe.&quot;
             </p>
           </div>
         </div>
@@ -67,7 +69,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 text-sm mb-4 md:mb-0">
-            © 2026 Hunter Family Ventures LLC. All rights reserved.
+            © 2026 TaxCaptain.ai. All rights reserved.
           </div>
           
           <div className="flex space-x-6 text-sm text-gray-400">

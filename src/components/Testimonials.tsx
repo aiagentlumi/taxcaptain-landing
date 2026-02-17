@@ -35,10 +35,10 @@ export default function Testimonials() {
 
           <div className="glow-card rounded-xl p-8">
             <div className="text-4xl mb-4">🔒</div>
-            <h3 className="text-xl font-semibold mb-4">Security First</h3>
+            <h3 className="text-xl font-semibold mb-4">Security Matters</h3>
             <p className="text-gray-300 leading-relaxed">
-              Tax data is sensitive. We&apos;re building with encryption, 
-              access controls, and data protection as foundational requirements.
+              Tax data is sensitive. Security and data protection are 
+              top priorities as we design and build TaxCaptain.
             </p>
           </div>
         </div>

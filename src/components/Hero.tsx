@@ -36,9 +36,9 @@ export default function Hero() {
         
         {/* Subheadline */}
         <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-          We&apos;re building AI tools designed to help accounting firms 
-          streamline document processing and reduce manual data entry. 
-          Join the waitlist to get early access.
+          We&apos;re building AI tools for small accounting firms that want to 
+          spend less time on repetitive tasks and more time advising clients. 
+          Join the waitlist to shape the product and get early access.
         </p>
         
         {/* CTA Section */}
